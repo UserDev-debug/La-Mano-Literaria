@@ -1,0 +1,85 @@
+/* Estilos generales */
+body {
+    background-color: #342E38;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo del encabezado */
+header {
+    background-color: #5A2B81;
+    padding: 20px;
+    text-align: center;
+}
+
+.titulo-imagen {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilo del menú de navegación */
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 10px;
+    background-color: #444;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #c0c0c0;
+}
+
+/* Estilo de la sección de libros */
+.libros-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.libro {
+    background-color: #555;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    width: 150px;
+}
+
+.libro a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.portada {
+    width: 100%;
+    height: auto;
+}
+
+.libro p {
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+/* Estilo del pie de página */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #aaa;
+    font-size: 0.9em;
+}
